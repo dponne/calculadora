@@ -14,13 +14,13 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  background-color: rgb(7, 210, 199);
-  transition: 0.8s all;
+  background-color: rgb(79, 218, 234);
+  transition: 0.5s all;
 }
 
 h1 {
-  margin-bottom: 1.5%;
-  color: #fff;
+  margin-bottom: 0.5%;
+  color: rgba(255, 255, 255, 0.297);
   font-weight: normal;
 }
 
@@ -46,11 +46,11 @@ h1 {
 
 input {
   padding: 25px;
-  color: rgb(87, 87, 87);
+  color: rgb(0, 0, 0);
   font-size: 1em;
   cursor: pointer;
   width: 70px;
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.355);
   border: none;
   outline: none;
   border-radius: 100px;
@@ -66,11 +66,11 @@ input {
 }
 
 input[type="button"] {
-  color: rgb(122, 122, 122);
+  color: rgb(0, 0, 0);
 }
 
 input[type="text"] {
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(27, 155, 170);
   width: 222.5px;
 }
 
@@ -79,9 +79,9 @@ input[type="button"]:hover {
   color: #fff;
 }
 
-#clear-button {
-  color: #fff;
-  background-color: rgb(255, 25, 25);
+input[type="button"]:hover {  
+  color: rgb(0, 0, 0);
+  background-color: rgb(251, 251, 251);
 }
 
 a {
@@ -90,7 +90,7 @@ a {
 }
 
 #github-icon {
-  margin-right: 10px;
+  margin-right: 18px;
 }
 
 .theme-button {
